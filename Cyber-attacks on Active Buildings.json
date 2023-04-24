@@ -1,0 +1,443 @@
+      {
+    "type": "bundle",
+    "id": "bundle--4f03f4e3-bb4a-4754-9049-b1304ac9a648",
+    "objects": [
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "created": "2021-11-12T15:02:29Z",
+            "modified": "2021-11-12T15:02:29Z",
+            "name": "Main structure",
+            "description": "This is the Active Building #1",
+            "infrastructure_types": [
+                "anonymization"
+            ],
+            "first_seen": "2021-11-12T15:01:41Z",
+            "last_seen": "2021-11-12T15:01:41Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--ffd79e1d-5597-4f72-91db-dc8850706fe3",
+            "created": "2021-11-12T15:02:41Z",
+            "modified": "2021-11-12T15:02:41Z",
+            "name": "Auxiliary structure",
+            "description": "This is the Active Building #2",
+            "first_seen": "2021-11-12T15:02:41Z",
+            "last_seen": "2021-11-12T15:02:41Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--fd8d8ca5-d7d9-4c15-9f7b-dc48790e3a10",
+            "created": "2021-11-12T15:04:01Z",
+            "modified": "2021-11-12T15:04:01Z",
+            "name": "EV Charger",
+            "description": "Capacity: 20kw-h",
+            "first_seen": "2021-11-12T15:04:01Z",
+            "last_seen": "2021-11-12T15:04:01Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--97b2ee35-7d0c-424f-9d65-fcdcd84eafd3",
+            "created": "2021-11-12T16:19:07Z",
+            "modified": "2021-11-12T16:19:07Z",
+            "name": "Smart Meter at Greenwich",
+            "aliases": [
+                "SmartMeter1"
+            ],
+            "first_seen": "2021-11-12T16:19:07Z",
+            "last_seen": "2021-11-12T16:19:07Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--c6717e31-453c-4b56-9307-22d317af72cf",
+            "created": "2021-11-12T16:20:11Z",
+            "modified": "2021-11-12T16:20:11Z",
+            "name": "Solar Array at Greenwich",
+            "description": "Solar array limited capacity",
+            "aliases": [
+                "SolarArray#1"
+            ],
+            "first_seen": "2021-11-12T16:20:11Z",
+            "last_seen": "2021-11-12T16:20:11Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--38760b21-64ed-4d00-b61f-10d73b3925de",
+            "created": "2021-11-12T16:22:32Z",
+            "modified": "2021-11-12T16:22:32Z",
+            "name": "Solar Array at Woolwich",
+            "aliases": [
+                "SolarArray#2"
+            ],
+            "first_seen": "2021-11-12T16:22:32Z",
+            "last_seen": "2021-11-12T16:22:32Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--3cee7c5b-bb51-493e-b19d-731658b37dd6",
+            "created": "2021-11-12T16:23:24Z",
+            "modified": "2021-11-12T16:23:24Z",
+            "name": "Smart Meter at Woolwich",
+            "aliases": [
+                "SmartMeter#2"
+            ],
+            "first_seen": "2021-11-12T16:23:24Z",
+            "last_seen": "2021-11-12T16:23:24Z"
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
+            "id": "location--5f7edacc-ad82-4ef7-86fd-343eff184474",
+            "created": "2021-11-12T16:27:58Z",
+            "modified": "2021-11-12T16:27:58Z",
+            "name": "Greenwich Building",
+            "region": [
+                "europe"
+            ],
+            "country": "England"
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
+            "id": "location--a82a80b4-99fa-4785-b3f3-6417d7d97857",
+            "created": "2021-11-12T16:28:19Z",
+            "modified": "2021-11-12T16:28:19Z",
+            "name": "Woolwich Building",
+            "region": [
+                "europe"
+            ],
+            "country": "England"
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
+            "id": "location--1f8ce181-eef9-409d-b4b7-2465f4ee9669",
+            "created": "2021-11-12T16:31:38Z",
+            "modified": "2021-11-12T16:31:38Z",
+            "name": "Solar array in 4th floor",
+            "region": [
+                "europe"
+            ],
+            "country": "England"
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--da8be4ad-2701-4a52-b2fb-f09515d7772e",
+            "created": "2021-11-12T16:33:13Z",
+            "modified": "2021-11-12T16:33:13Z",
+            "confidence": "5",
+            "first_observed": "2021-11-12T16:32:43Z",
+            "last_observed": "2021-11-12T16:32:43Z",
+            "number_observed": "1",
+            "object_refs_": [
+                "network-traffic--1106feed-8127-4472-a6ea-75da69a91479"
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--18dc34c0-00d2-4e68-bbc4-2e8c3e6282cc",
+            "created": "2021-11-12T16:41:37Z",
+            "modified": "2021-11-12T16:41:37Z",
+            "confidence": "10"
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--4d998b55-eff7-4a06-9e34-fbb4de951d09",
+            "created": "2021-11-12T16:44:42Z",
+            "modified": "2021-11-12T16:44:42Z",
+            "name": "viciUS-rootkit",
+            "description": "Targets .dll in windows machines.",
+            "malware_types": [
+                "backdoor"
+            ],
+            "is_family": "1",
+            "aliases": [
+                "vicius-kit"
+            ],
+            "first_seen": "2021-11-12T16:42:28Z",
+            "last_seen": "2021-11-12T16:42:28Z",
+            "architecture_execution_envs": [
+                "x86"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--be4cd01b-bfb7-449b-bfa1-7701a266e990",
+            "created": "2021-11-12T16:47:23Z",
+            "modified": "2021-11-12T16:47:23Z",
+            "name": "APT Group 1",
+            "description": "Group acting from US.",
+            "threat_actor_types": [
+                "crime-syndicate"
+            ],
+            "aliases": [
+                "APT#1#"
+            ],
+            "first_seen": "2021-11-12T16:47:23Z",
+            "last_seen": "2021-11-12T16:47:23Z",
+            "roles": [
+                "agent"
+            ],
+            "sophistication": [
+                "none"
+            ],
+            "resource_level": [
+                "team"
+            ],
+            "primary_motivation": [
+                "accidental"
+            ]
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--da0c70e0-0a3f-4fb8-b244-a0ec32283659",
+            "created": "2021-11-12T16:48:48Z",
+            "modified": "2021-11-12T16:48:48Z",
+            "name": "1tone_of_shade",
+            "identity_class": [
+                "individual"
+            ],
+            "sectors": [
+                "energy"
+            ]
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--eedf1f3e-be5a-49a9-bfba-49c18af4f41e",
+            "created": "2021-11-12T16:50:14Z",
+            "modified": "2021-11-12T16:50:14Z",
+            "name": "Campaign to deploy rootkit",
+            "first-seen": "2021-11-12T16:50:14Z",
+            "last-seen": "2021-11-12T16:50:14Z",
+            "objective": "Impact frequency."
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--2664dee2-6b37-4c3a-b6db-4ca4ab836d4c",
+            "created": "2021-11-12T16:51:13Z",
+            "modified": "2021-11-12T16:51:13Z",
+            "abstract": "Observation about the campaign to influence frequency.",
+            "content": "The first level is to compromise the telecommunications network.",
+            "object_refs": [
+                "campaign--eedf1f3e-be5a-49a9-bfba-49c18af4f41e"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d6260ab1-322d-4900-967e-2b6c90b2b804",
+            "created": "2021-11-12T15:07:14Z",
+            "modified": "2021-11-12T15:07:14Z",
+            "relationship_type": "controls",
+            "source_ref": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "target_ref": "infrastructure--fd8d8ca5-d7d9-4c15-9f7b-dc48790e3a10",
+            "start_time": "2021-11-12T15:07:14Z",
+            "stop_time": "2021-11-12T15:07:14Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c484d1ec-4996-42b1-bdfd-185de18a1258",
+            "created": "2021-11-12T16:21:13Z",
+            "modified": "2021-11-12T16:21:13Z",
+            "relationship_type": "controls",
+            "source_ref": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "target_ref": "infrastructure--97b2ee35-7d0c-424f-9d65-fcdcd84eafd3",
+            "start_time": "2021-11-12T16:21:13Z",
+            "stop_time": "2021-11-12T16:21:13Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--ef660bf9-7b6f-4b61-80cb-e5fb09378e8f",
+            "created": "2021-11-12T16:21:51Z",
+            "modified": "2021-11-12T16:21:51Z",
+            "relationship_type": "controls",
+            "source_ref": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "target_ref": "infrastructure--c6717e31-453c-4b56-9307-22d317af72cf",
+            "start_time": "2021-11-12T16:21:51Z",
+            "stop_time": "2021-11-12T16:21:51Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2aae9176-c9eb-44d3-b25a-1c2f3ccb62dd",
+            "created": "2021-11-12T16:25:11Z",
+            "modified": "2021-11-12T16:25:11Z",
+            "relationship_type": "communicates with",
+            "source_ref": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "target_ref": "infrastructure--ffd79e1d-5597-4f72-91db-dc8850706fe3",
+            "start_time": "2021-11-12T16:25:11Z",
+            "stop_time": "2021-11-12T16:25:11Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--d8f1fcd4-8fe1-4370-8eb6-f7aedb36b440",
+            "created": "2021-11-12T16:25:47Z",
+            "modified": "2021-11-12T16:25:47Z",
+            "relationship_type": "communicates with",
+            "source_ref": "infrastructure--ffd79e1d-5597-4f72-91db-dc8850706fe3",
+            "target_ref": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "start_time": "2021-11-12T16:25:47Z",
+            "stop_time": "2021-11-12T16:25:47Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--fd0cb188-9fa6-40d3-967f-608b195c653a",
+            "created": "2021-11-12T16:26:10Z",
+            "modified": "2021-11-12T16:26:10Z",
+            "relationship_type": "controls",
+            "source_ref": "infrastructure--ffd79e1d-5597-4f72-91db-dc8850706fe3",
+            "target_ref": "infrastructure--3cee7c5b-bb51-493e-b19d-731658b37dd6",
+            "start_time": "2021-11-12T16:26:10Z",
+            "stop_time": "2021-11-12T16:26:10Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--dfffa3d0-4e9d-498f-8774-1f87d5b25223",
+            "created": "2021-11-12T16:26:41Z",
+            "modified": "2021-11-12T16:26:41Z",
+            "relationship_type": "controls",
+            "source_ref": "infrastructure--ffd79e1d-5597-4f72-91db-dc8850706fe3",
+            "target_ref": "infrastructure--38760b21-64ed-4d00-b61f-10d73b3925de",
+            "start_time": "2021-11-12T16:26:41Z",
+            "stop_time": "2021-11-12T16:26:41Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--13108e5c-0225-477e-bbc1-b9ec698a3ff7",
+            "created": "2021-11-12T16:28:46Z",
+            "modified": "2021-11-12T16:28:46Z",
+            "relationship_type": "located at",
+            "source_ref": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "target_ref": "location--5f7edacc-ad82-4ef7-86fd-343eff184474",
+            "start_time": "2021-11-12T16:28:46Z",
+            "stop_time": "2021-11-12T16:28:46Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--b590bb38-dd6c-4d70-a5ae-0e4a91e8095f",
+            "created": "2021-11-12T16:29:16Z",
+            "modified": "2021-11-12T16:29:16Z",
+            "relationship_type": "located at",
+            "source_ref": "infrastructure--ffd79e1d-5597-4f72-91db-dc8850706fe3",
+            "target_ref": "location--a82a80b4-99fa-4785-b3f3-6417d7d97857",
+            "start_time": "2021-11-12T16:29:16Z",
+            "stop_time": "2021-11-12T16:29:16Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--f6e1aadc-dfea-47a3-ba61-19d493b3f129",
+            "created": "2021-11-12T16:31:53Z",
+            "modified": "2021-11-12T16:31:53Z",
+            "relationship_type": "located at",
+            "source_ref": "infrastructure--c6717e31-453c-4b56-9307-22d317af72cf",
+            "target_ref": "location--1f8ce181-eef9-409d-b4b7-2465f4ee9669",
+            "start_time": "2021-11-12T16:31:53Z",
+            "stop_time": "2021-11-12T16:31:53Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--91658b10-639e-4b3b-bf19-dd73bb705a0f",
+            "created": "2021-11-12T16:33:25Z",
+            "modified": "2021-11-12T16:33:25Z",
+            "relationship_type": "consists of",
+            "source_ref": "infrastructure--97b2ee35-7d0c-424f-9d65-fcdcd84eafd3",
+            "target_ref": "observed-data--da8be4ad-2701-4a52-b2fb-f09515d7772e",
+            "start_time": "2021-11-12T16:33:25Z",
+            "stop_time": "2021-11-12T16:33:25Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--71227498-c492-4499-b6d4-4bac954604f9",
+            "created": "2021-11-12T16:41:46Z",
+            "modified": "2021-11-12T16:41:46Z",
+            "relationship_type": "has",
+            "source_ref": "infrastructure--392c2b73-ad65-4faf-a121-30ded169ec95",
+            "target_ref": "vulnerability--18dc34c0-00d2-4e68-bbc4-2e8c3e6282cc",
+            "start_time": "2021-11-12T16:41:46Z",
+            "stop_time": "2021-11-12T16:41:46Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--2bd7c93e-bdfc-4eca-a86b-8d17a1569c95",
+            "created": "2021-11-12T16:45:37Z",
+            "modified": "2021-11-12T16:45:37Z",
+            "relationship_type": "exploits",
+            "source_ref": "malware--4d998b55-eff7-4a06-9e34-fbb4de951d09",
+            "target_ref": "vulnerability--18dc34c0-00d2-4e68-bbc4-2e8c3e6282cc",
+            "start_time": "2021-11-12T16:45:37Z",
+            "stop_time": "2021-11-12T16:45:37Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--90f40087-6291-4629-92ca-d7cb531d31cb",
+            "created": "2021-11-12T16:48:16Z",
+            "modified": "2021-11-12T16:48:16Z",
+            "relationship_type": "authored by",
+            "source_ref": "malware--4d998b55-eff7-4a06-9e34-fbb4de951d09",
+            "target_ref": "threat-actor--be4cd01b-bfb7-449b-bfa1-7701a266e990",
+            "start_time": "2021-11-12T16:48:16Z",
+            "stop_time": "2021-11-12T16:48:16Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--301d259e-64c8-4979-8b2a-359ef7bd09ff",
+            "created": "2021-11-12T16:49:29Z",
+            "modified": "2021-11-12T16:49:29Z",
+            "relationship_type": "impersonates",
+            "source_ref": "threat-actor--be4cd01b-bfb7-449b-bfa1-7701a266e990",
+            "target_ref": "identity--da0c70e0-0a3f-4fb8-b244-a0ec32283659",
+            "start_time": "2021-11-12T16:49:29Z",
+            "stop_time": "2021-11-12T16:49:29Z"
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--c6e49359-db47-4483-a762-3ca82012b1e3",
+            "created": "2021-11-12T16:50:54Z",
+            "modified": "2021-11-12T16:50:54Z",
+            "relationship_type": "uses",
+            "source_ref": "campaign--eedf1f3e-be5a-49a9-bfba-49c18af4f41e",
+            "target_ref": "malware--4d998b55-eff7-4a06-9e34-fbb4de951d09",
+            "start_time": "2021-11-12T16:50:54Z",
+            "stop_time": "2021-11-12T16:50:54Z"
+        },
+        {
+            "type": "network-traffic",
+            "id": "network-traffic--1106feed-8127-4472-a6ea-75da69a91479",
+            "spec_version": "2.1",
+            "start": "2021-11-10T16:53:47Z",
+            "end": "2021-11-12T16:53:47Z",
+            "protocols": [
+                "HTTP",
+                "HTTPS"
+            ]
+        }
+    ]
+}

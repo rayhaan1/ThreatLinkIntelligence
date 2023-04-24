@@ -1,0 +1,150 @@
+      {
+    "type": "bundle",
+    "id": "bundle--61e1ce1e-0c29-4ef4-b36e-51134f2a416b",
+    "objects": [
+        {
+            "type": "attack-pattern",
+            "spec_version": "2.1",
+            "id": "attack-pattern--4ce9d8c2-8437-4769-bd92-127d194cd4da",
+            "created": "2022-06-24T10:53:24Z",
+            "modified": "2022-06-24T10:53:24Z",
+            "name": "File Content Injection",
+            "aliases": [
+                "CPEC-23"
+            ]
+        },
+        {
+            "type": "incident",
+            "spec_version": "2.1",
+            "id": "incident--5b8c1aba-f661-467e-bf1a-1a30faac2979",
+            "created": "2022-06-24T10:56:21Z",
+            "modified": "2022-06-24T10:56:21Z",
+            "name": "Incident 43",
+            "description": "This incident addresses APT 28 ..."
+        },
+        {
+            "type": "malware",
+            "spec_version": "2.1",
+            "id": "malware--fb24fd31-2dd9-4d22-b1b0-994008e4a9dc",
+            "created": "2022-06-24T10:58:22Z",
+            "modified": "2022-06-24T10:58:22Z",
+            "name": "mal",
+            "first_seen": "2022-06-24T10:58:22Z",
+            "last_seen": "2022-06-24T10:58:22Z"
+        },
+        {
+            "type": "identity",
+            "spec_version": "2.1",
+            "id": "identity--05b3c7f1-dd7d-47c3-acb9-b23e13ed4867",
+            "created": "2022-06-24T10:59:50Z",
+            "modified": "2022-06-24T10:59:50Z",
+            "name": "sys",
+            "identity_class": [
+                "individual"
+            ]
+        },
+        {
+            "type": "location",
+            "spec_version": "2.1",
+            "id": "location--fc2cae9b-8b59-4b72-8f84-37ed511f3ea3",
+            "created": "2022-06-24T11:00:10Z",
+            "modified": "2022-06-24T11:00:10Z",
+            "name": "country",
+            "region": [
+                "africa"
+            ]
+        },
+        {
+            "type": "threat-actor",
+            "spec_version": "2.1",
+            "id": "threat-actor--1fa70c8c-f130-4348-a6b6-00281082e2d8",
+            "created": "2022-06-24T11:00:55Z",
+            "modified": "2022-06-24T11:00:55Z",
+            "name": "Tactor",
+            "first_seen": "2022-06-24T11:00:55Z",
+            "last_seen": "2022-06-24T11:00:55Z",
+            "sophistication": [
+                "none"
+            ],
+            "resource_level": [
+                "individual"
+            ],
+            "primary_motivation": [
+                "accidental"
+            ]
+        },
+        {
+            "type": "indicator",
+            "spec_version": "2.1",
+            "id": "indicator--f8f974fb-8016-47c5-94d5-018c90a059bf",
+            "created": "2022-06-24T11:01:31Z",
+            "modified": "2022-06-24T11:01:31Z",
+            "name": "indic",
+            "valid_from": "2022-06-24T11:01:31Z",
+            "valid_until": "2022-06-24T11:01:31Z"
+        },
+        {
+            "type": "infrastructure",
+            "spec_version": "2.1",
+            "id": "infrastructure--4d82cf3f-03a7-4e72-b8b6-77ee8c0c2481",
+            "created": "2022-06-24T11:01:57Z",
+            "modified": "2022-06-24T11:01:57Z",
+            "name": "infra",
+            "first_seen": "2022-06-24T11:01:57Z",
+            "last_seen": "2022-06-24T11:01:57Z"
+        },
+        {
+            "type": "campaign",
+            "spec_version": "2.1",
+            "id": "campaign--b3a471c3-e705-4738-ad0f-53e1a36c73ab",
+            "created": "2022-06-24T11:02:34Z",
+            "modified": "2022-06-24T11:02:34Z",
+            "name": "camp",
+            "first-seen": "2022-06-24T11:02:34Z",
+            "last-seen": "2022-06-24T11:02:34Z"
+        },
+        {
+            "type": "observed-data",
+            "spec_version": "2.1",
+            "id": "observed-data--2456b8ae-dbe7-49c2-bf3f-a30ba4e9c0e4",
+            "created": "2022-06-24T11:02:52Z",
+            "modified": "2022-06-24T11:02:52Z",
+            "first_observed": "2022-06-24T11:02:52Z",
+            "last_observed": "2022-06-24T11:02:52Z",
+            "number_observed": "1",
+            "object_refs_": [
+                "email-message--30362629-a837-447f-82c7-ecfee861af0e"
+            ]
+        },
+        {
+            "type": "vulnerability",
+            "spec_version": "2.1",
+            "id": "vulnerability--50044ecf-4658-4f8f-92e2-35ec32799f58",
+            "created": "2022-06-24T11:03:39Z",
+            "modified": "2022-06-24T11:03:39Z",
+            "name": "CVE-2008-5305",
+            "description": "Eval injection in Perl program using an ID that should only contain hyphens and numbers."
+        },
+        {
+            "type": "note",
+            "spec_version": "2.1",
+            "id": "note--3feda280-ca15-4a7c-b40b-904b8eabfd7e",
+            "created": "2022-06-24T11:05:20Z",
+            "modified": "2022-06-24T11:05:20Z",
+            "object_refs": [
+                "observed-data--2456b8ae-dbe7-49c2-bf3f-a30ba4e9c0e4"
+            ]
+        },
+        {
+            "type": "relationship",
+            "spec_version": "2.1",
+            "id": "relationship--a1d0bd47-ab9a-4e51-95ec-91bc7b264cfe",
+            "created": "2022-06-24T11:09:24Z",
+            "modified": "2022-06-24T11:09:24Z",
+            "source_ref": "incident--5b8c1aba-f661-467e-bf1a-1a30faac2979",
+            "target_ref": "campaign--b3a471c3-e705-4738-ad0f-53e1a36c73ab",
+            "start_time": "2022-06-24T11:09:24Z",
+            "stop_time": "2022-06-24T11:09:24Z"
+        }
+    ]
+}
